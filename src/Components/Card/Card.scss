@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    border: 2px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0 6px 24px rgba(15, 34, 79, .14);
+    color: #1d2023;
+
+    .name {
+        font-size: 27px;
+    }
+
+    .price_wrap {
+        padding-top: 20px;
+        font-size: 18px;
+
+        .price {
+            padding-right: 5px;
+            font-size: 40px;
+        }
+    }
+
+    .traffic {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+
+    .quantity {
+        padding-top: 20px;
+        font-size: 18px;
+    }
+}
+
+.white {
+    background-color: white;
+}
+
+.paleturquoise {
+    background-color: paleturquoise;
+}
